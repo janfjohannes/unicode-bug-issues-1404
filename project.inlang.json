@@ -7,26 +7,7 @@
     
     "ml",
     "mn",
-    "mr",
-    "nl",
-    "oc",
-    "pl",
-    "pt",
-    "ptBR",
-    "ro",
-    "ru",
-    "sc",
-    "sk",
-    "sl",
-    "sq",
-    "sr",
-    "sv",
-    "te",
-    "tr",
-    "uk",
-    "vi",
-    "zhCN",
-    "zhTW"
+    "nl"
 ],
   "modules": [
     "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@4/dist/index.js",
