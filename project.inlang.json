@@ -2,10 +2,10 @@
   "$schema": "https://inlang.com/schema/project-settings",
   "sourceLanguageTag": "en",
   "languageTags": [
-    "en",
-    "af",
-    "ar",
-    "be",
+   
+    "ml",
+    "nl",
+
     "de"
   ],
   "modules": [
