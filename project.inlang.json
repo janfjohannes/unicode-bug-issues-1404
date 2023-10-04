@@ -2,8 +2,6 @@
   "$schema": "https://inlang.com/schema/project-settings",
   "sourceLanguageTag": "en",
   "languageTags": [
-    "ml",
-    "nl",
     "de"
   ],
   "modules": [
@@ -15,10 +13,6 @@
   ],
   "plugin.inlang.i18next": {
     "pathPattern": "./lang/main-{languageTag}.json",
-    "sourceLanguageFilePath": "./lang/main.json",
-    "variableReferencePattern": [
-      "{{",
-      "}}"
-    ]
+    "sourceLanguageFilePath": "./lang/main.json"
   }
 }
