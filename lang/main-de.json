@@ -642,12 +642,12 @@
         "notificationLobbyDisabled": "{{originParticipantName}} hat die Lobby deaktiviert",
         "notificationLobbyEnabled": "{{originParticipantName}} hat die Lobby aktiviert",
         "notificationTitle": "Lobby",
-        "passwordField": "Konferenzpasswort eingeben",
         "passwordJoinButton": "Beitreten",
         "reject": "Ablehnen",
         "rejectAll": "Alle ablehnen",
         "title": "Lobby",
-        "toggleLabel": "Lobby aktivieren"
+        "toggleLabel": "Lobby aktivieren",
+        "passwordField": "Konferenzpasswort eingeben"
     },
     "localRecording": {
         "clientState": {

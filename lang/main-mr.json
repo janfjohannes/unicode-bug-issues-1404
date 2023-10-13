@@ -1,21 +1,24 @@
 {
     "addPeople": {
+        "accessibilityLabel": {
+            "meetingLink": "मीटिंग लिंक: {{url}}"
+        },
         "add": "आमंत्रित करा",
         "countryNotSupported": "आम्ही अद्याप या गंतव्याचे समर्थन करत नाही.",
         "countryReminder": "यूएस बाहेर कॉल करीत आहे? कृपया आपण देशाच्या कोडसह प्रारंभ केल्याचे सुनिश्चित करा!",
         "disabled": "आपण लोकांना आमंत्रित करू शकत नाही.",
         "failedToAdd": "सहभागी जोडण्यात अयशस्वी",
+        "noResults": "कोणतेही जुळणारे शोध परिणाम नाहीत",
+        "telephone": "दूरध्वनी: {{number}}",
+        "title": "या संमेलनात लोकांना आमंत्रित करा",
         "footerText": "डायल आउट करणे अक्षम केले आहे.",
         "loading": "लोक आणि फोन नंबर शोधत आहे",
         "loadingNumber": "फोन नंबर सत्यापित करीत आहे",
         "loadingPeople": "लोकांना आमंत्रित करण्यासाठी शोधत आहे",
-        "noResults": "कोणतेही जुळणारे शोध परिणाम नाहीत",
         "noValidNumbers": "कृपया एक फोन नंबर प्रविष्ट करा",
         "searchNumbers": "फोन नंबर जोडा",
         "searchPeople": "लोकांचा शोध घ्या",
-        "searchPeopleAndNumbers": "लोक शोधा किंवा त्यांचा फोन नंबर जोडा",
-        "telephone": "दूरध्वनी: {{number}}",
-        "title": "या संमेलनात लोकांना आमंत्रित करा"
+        "searchPeopleAndNumbers": "लोक शोधा किंवा त्यांचा फोन नंबर जोडा"
     },
     "audioDevices": {
         "bluetooth": "ब्लूटुथ",
@@ -126,9 +129,9 @@
         "descriptionWithoutWeb": "काहीच घडलं नाही? आम्ही आपली बैठक {{app}} डेस्कटॉप अॅपमध्ये लाँच करण्याचा प्रयत्न केला.",
         "downloadApp": "अ‍ॅप डाउनलोड करा",
         "launchWebButton": "वेबमध्ये लाँच करा",
-        "openApp": "अ‍ॅप वर सुरू ठेवा",
         "title": " {{app}}मध्ये आपली बैठक सुरू करत आहे",
-        "tryAgainButton": "डेस्कटॉपवर पुन्हा प्रयत्न करा"
+        "tryAgainButton": "डेस्कटॉपवर पुन्हा प्रयत्न करा",
+        "openApp": "अ‍ॅप वर सुरू ठेवा"
     },
     "defaultLink": "उदा. {{url}}",
     "defaultNickname": " उदा. जेन गुलाबी",
@@ -156,7 +159,6 @@
         "Share": "सामायिक करा",
         "Submit": "प्रस्तुत करणे",
         "WaitForHostMsg": "परिषद अद्याप सुरू झाले नाही. आपण होस्ट असल्यास कृपया अधिकृत करा. अन्यथा, कृपया होस्ट येण्याची प्रतीक्षा करा.",
-        "WaitingForHost": " होस्टची प्रतीक्षा करीत आहे ...",
         "Yes": "होय",
         "accessibilityLabel": {
             "liveStreaming": "थेट प्रसारण"
@@ -192,14 +194,9 @@
         "e2eeWarning": "चेतावणी:या बैठकीतील सर्व सहभागींना एंड-टू-एंड एनक्रिप्शनसाठी समर्थन असल्याचे दिसत नाही. आपण सक्षम केल्यास ते आपल्याला पाहण्यास किंवा ऐकण्यास सक्षम राहणार नाहीत.",
         "enterDisplayName": "कृपया आपले नाव येथे प्रविष्ट करा",
         "error": "त्रुटी",
-        "externalInstallationMsg": "आपल्याला आमचा डेस्कटॉप सामायिकरण विस्तार स्थापित करणे आवश्यक आहे.",
-        "externalInstallationTitle": "विस्तार आवश्यक",
-        "goToStore": "वेब स्टोअरवर जा",
         "gracefulShutdown": "आमची सेवा सध्या देखभालीसाठी बंद आहे. कृपया पुन्हा प्रयत्न करा.",
         "incorrectPassword": "वापरकर्त्याचे नाव अथवा पासवर्ड चुकीचा",
         "incorrectRoomLockPassword": "चुकीचा संकेतशब्द",
-        "inlineInstallExtension": "स्थापित करा",
-        "inlineInstallationMsg": "आपल्याला आमचा डेस्कटॉप सामायिकरण विस्तार स्थापित करणे आवश्यक आहे.",
         "internalError": "अरेरे! काहीतरी चूक झाली. पुढील त्रुटी आली:{{error}}",
         "internalErrorTitle": "अंतर्गत त्रुटी",
         "kickMessage": "अधिक तपशीलांसाठी आपण {{participantDisplayName}} वर संपर्क साधू शकता.",
@@ -208,8 +205,6 @@
         "kickParticipantTitle": "या सहभागीला बाहेर करा?",
         "kickTitle": "Ouch! {{participantDisplayName}} kicked you out of the meeting",
         "liveStreaming": "थेट प्रवाह",
-        "liveStreamingDisabledForGuestTooltip": "अतिथी थेट प्रवाह सुरू करू शकत नाहीत.",
-        "liveStreamingDisabledTooltip": "थेट प्रवाह अक्षम करा.",
         "lockMessage": "परिषद लॉक करण्यात अयशस्वी.",
         "lockRoom": "मीटिंग जोडा $t(lockRoomPasswordUppercase)",
         "lockTitle": "लॉक अयशस्वी",
@@ -231,17 +226,11 @@
         "muteEveryoneTitle": "सर्वांना नि: शब्द करा?",
         "muteParticipantBody": "आपण त्यांना सशब्द करण्यास सक्षम राहणार नाही परंतु ते कधीही स्वत: ला सशब्द करू शकतात.",
         "muteParticipantButton": "नि: शब्द करा",
-        "muteParticipantDialog": "आपली खात्री आहे की आपण या सहभागीस नि: शब्द करू इच्छिता? आपण त्यांना सशब्द करण्यास सक्षम राहणार नाही परंतु ते कधीही स्वत: ला सशब्द करू शकतात.",
-        "muteParticipantTitle": "हा सहभागी नि: शब्द करायचा?",
         "passwordLabel": "संमेलनास एका सहभागीने लॉक केले आहे. कृपया सामील होण्यासाठी $t(lockRoomPassword) प्रविष्ट करा.",
         "passwordNotSupported": "मीटिंग सेट करणे $t(lockRoomPassword) समर्थित नाही..",
         "passwordNotSupportedTitle": "$t(lockRoomPasswordUppercase) समर्थित नाही",
         "passwordRequired": "$t(lockRoomPasswordUppercase)आवश्यक",
-        "popupError": "आपला ब्राउझर या साइटवरील पॉप-अप विंडोज अवरोधित करत आहे. कृपया आपल्या ब्राउझरच्या सुरक्षा सेटिंग्जमध्ये पॉप-अप सक्षम करा आणि पुन्हा प्रयत्न करा.",
-        "popupErrorTitle": "पॉप-अप अवरोधित",
         "recording": "मुद्रित करणे",
-        "recordingDisabledForGuestTooltip": "अतिथी रेकॉर्डिंग प्रारंभ करू शकत नाहीत.",
-        "recordingDisabledTooltip": "रेकॉर्डिंग प्रारंभ अक्षम.",
         "rejoinNow": "आता पुन्हा सामील व्हा",
         "remoteControlAllowedMessage": "{{user}} आपली रिमोट कंट्रोल विनंती मान्य केली!",
         "remoteControlDeniedMessage": "{{user}} आपली रिमोट कंट्रोल विनंती नाकारली!",
@@ -257,10 +246,6 @@
         "reservationErrorMsg": "Error code: {{code}}, message: {{msg}}",
         "retry": "पुन्हा प्रयत्न करा",
         "screenSharingAudio": "ऑडिओ सामायिक करा",
-        "screenSharingFailedToInstall": "अरेरे! आपला स्क्रीन सामायिकरण विस्तार स्थापित करण्यात अयशस्वी.",
-        "screenSharingFailedToInstallTitle": "स्क्रीन सामायिकरण विस्तार स्थापित करण्यात अयशस्वी",
-        "screenSharingFirefoxPermissionDeniedError": "आम्ही आपली स्क्रीन सामायिक करण्याचा प्रयत्न करीत असताना काहीतरी चुकीचे झाले. कृपया याची खात्री करा की आपण आम्हाला तसे करण्यास परवानगी दिली आहे.",
-        "screenSharingFirefoxPermissionDeniedTitle": "अरेरे! आम्ही स्क्रीन सामायिकरण प्रारंभ करण्यास सक्षम नाही!",
         "screenSharingPermissionDeniedError": "अरेरे! आपल्या स्क्रीन सामायिकरण विस्तार परवानग्यांसह काहीतरी चूक झाली. कृपया रीलोड करा आणि पुन्हा प्रयत्न करा.",
         "sendPrivateMessage": "आपल्याला अलीकडे एक खाजगी संदेश प्राप्त झाला आहे. त्यास खाजगीरित्या उत्तर देण्याचा आपला हेतू होता की आपण आपला संदेश गटाला पाठवू इच्छिता?",
         "sendPrivateMessageCancel": "गटाला पाठवा",
@@ -272,7 +257,6 @@
         "shareVideoTitle": "एक व्हिडिओ सामायिक करा",
         "shareYourScreen": "आपली स्क्रीन सामायिक करा",
         "shareYourScreenDisabled": "स्क्रीन सामायिकरण अक्षम केले.",
-        "shareYourScreenDisabledForGuest": "अतिथी स्क्रीन सामायिकरण करू शकत नाहीत.",
         "startLiveStreaming": "थेट प्रवाह सुरू करा",
         "startRecording": "रेकॉर्डिंग प्रारंभ करा",
         "startRemoteControlErrorMessage": "रिमोट कंट्रोल सत्र सुरू करण्याचा प्रयत्न करताना एक त्रुटी आली!",
@@ -288,7 +272,26 @@
         "transcribing": "लिप्यंतरण",
         "unlockRoom": "मीटिंग काढा $t(lockRoomPassword)",
         "userPassword": "user password",
-        "yourEntireScreen": "आपली संपूर्ण स्क्रीन"
+        "yourEntireScreen": "आपली संपूर्ण स्क्रीन",
+        "WaitingForHost": " होस्टची प्रतीक्षा करीत आहे ...",
+        "externalInstallationMsg": "आपल्याला आमचा डेस्कटॉप सामायिकरण विस्तार स्थापित करणे आवश्यक आहे.",
+        "externalInstallationTitle": "विस्तार आवश्यक",
+        "goToStore": "वेब स्टोअरवर जा",
+        "inlineInstallExtension": "स्थापित करा",
+        "inlineInstallationMsg": "आपल्याला आमचा डेस्कटॉप सामायिकरण विस्तार स्थापित करणे आवश्यक आहे.",
+        "liveStreamingDisabledForGuestTooltip": "अतिथी थेट प्रवाह सुरू करू शकत नाहीत.",
+        "liveStreamingDisabledTooltip": "थेट प्रवाह अक्षम करा.",
+        "muteParticipantDialog": "आपली खात्री आहे की आपण या सहभागीस नि: शब्द करू इच्छिता? आपण त्यांना सशब्द करण्यास सक्षम राहणार नाही परंतु ते कधीही स्वत: ला सशब्द करू शकतात.",
+        "muteParticipantTitle": "हा सहभागी नि: शब्द करायचा?",
+        "popupError": "आपला ब्राउझर या साइटवरील पॉप-अप विंडोज अवरोधित करत आहे. कृपया आपल्या ब्राउझरच्या सुरक्षा सेटिंग्जमध्ये पॉप-अप सक्षम करा आणि पुन्हा प्रयत्न करा.",
+        "popupErrorTitle": "पॉप-अप अवरोधित",
+        "recordingDisabledForGuestTooltip": "अतिथी रेकॉर्डिंग प्रारंभ करू शकत नाहीत.",
+        "recordingDisabledTooltip": "रेकॉर्डिंग प्रारंभ अक्षम.",
+        "screenSharingFailedToInstall": "अरेरे! आपला स्क्रीन सामायिकरण विस्तार स्थापित करण्यात अयशस्वी.",
+        "screenSharingFailedToInstallTitle": "स्क्रीन सामायिकरण विस्तार स्थापित करण्यात अयशस्वी",
+        "screenSharingFirefoxPermissionDeniedError": "आम्ही आपली स्क्रीन सामायिक करण्याचा प्रयत्न करीत असताना काहीतरी चुकीचे झाले. कृपया याची खात्री करा की आपण आम्हाला तसे करण्यास परवानगी दिली आहे.",
+        "screenSharingFirefoxPermissionDeniedTitle": "अरेरे! आम्ही स्क्रीन सामायिकरण प्रारंभ करण्यास सक्षम नाही!",
+        "shareYourScreenDisabledForGuest": "अतिथी स्क्रीन सामायिकरण करू शकत नाहीत."
     },
     "documentSharing": {
         "title": "सामायिक दस्तऐवज"
@@ -304,9 +307,6 @@
         "rateExperience": "आपल्या भेटीचा अनुभव रेट करा",
         "veryBad": "फार वाईट",
         "veryGood": "खुप छान"
-    },
-    "helpView": {
-        "title": "मदत केंद्र"
     },
     "incomingCall": {
         "answer": "उत्तर",
@@ -453,7 +453,6 @@
         "disconnected": "डिस्कनेक्ट झाले",
         "focus": "परिषद लक्ष",
         "focusFail": "{{component}} उपलब्ध नाही - पुन्हा प्रयत्न करा {{ms}} सेकंद",
-        "grantedTo": "नियंत्रक अधिकार यांना दिले {{to}}!",
         "invitedOneMember": "{{name}}आमंत्रित केले गेले आहे",
         "invitedThreePlusMembers": "{{name}} आणि {{count}} इतरांना आमंत्रित केले गेले आहे",
         "invitedTwoMembers": "{{first}} आणि {{second}} आमंत्रित केले गेले आहे",
@@ -478,7 +477,8 @@
         "startSilentTitle": "आपण ऑडिओ आउटपुटसह सामील झालात!",
         "suboptimalBrowserWarning": " आम्हाला भीती वाटते की येथे आपल्या भेटीचा अनुभव इतका उत्कृष्ट होणार नाही. आम्ही यामध्ये सुधारणा करण्याचे मार्ग शोधत आहोत, परंतु तोपर्यंत कृपया त्यापैकी एक वापरून पहा <a href='static/recommendedBrowsers.html' target='_blank'>fully supported browsers</a>.",
         "suboptimalExperienceTitle": "ब्राउझर चेतावणी",
-        "unmute": "सशब्द करा"
+        "unmute": "सशब्द करा",
+        "grantedTo": "नियंत्रक अधिकार यांना दिले {{to}}!"
     },
     "passwordDigitsOnly": " पर्यंत {{number}} अंक",
     "passwordSetRemotely": "दुसर्‍या सहभागीने सेट केलेले",
@@ -630,7 +630,6 @@
     },
     "toolbar": {
         "Settings": "सेटिंग्ज",
-        "accessibilityLabel": {},
         "addPeople": "आपल्या कॉलमध्ये लोकांना जोडा",
         "audioOnlyOff": "कमी बँडविड्थ मोड अक्षम करा",
         "audioOnlyOn": "कमी बँडविड्थ मोड सक्षम करा",
@@ -677,15 +676,15 @@
         "speakerStats": "स्पीकर आकडेवारी",
         "startScreenSharing": "स्क्रीन सामायिकरण प्रारंभ करा",
         "startSubtitles": "उपशीर्षके प्रारंभ करा",
-        "startvideoblur": "माझी पार्श्वभूमी अस्पष्ट करा",
         "stopScreenSharing": "स्क्रीन सामायिकरण थांबवा",
         "stopSharedVideo": "YouTube व्हिडिओ थांबवा",
         "stopSubtitles": "उपशीर्षके थांबवा",
-        "stopvideoblur": "पार्श्वभूमी डाग अक्षम करा",
         "talkWhileMutedPopup": "बोलण्याचा प्रयत्न करीत आहात? आपण निःशब्द आहात.",
         "tileViewToggle": "टाइल दृश्य टॉगल करा",
         "toggleCamera": "टॉगल कॅमेरा",
-        "videomute": "कॅमेरा प्रारंभ / थांबवा"
+        "videomute": "कॅमेरा प्रारंभ / थांबवा",
+        "startvideoblur": "माझी पार्श्वभूमी अस्पष्ट करा",
+        "stopvideoblur": "पार्श्वभूमी डाग अक्षम करा"
     },
     "transcribing": {
         "ccButtonTooltip": "उपशीर्षके प्रारंभ / थांबवा",
@@ -733,14 +732,14 @@
         "ld": "एलडी",
         "ldTooltip": "निम्न परिभाषा व्हिडिओ पहात आहे",
         "lowDefinition": "कमी व्याख्या",
+        "sd": "एसडी",
+        "sdTooltip": "मानक परिभाषा व्हिडिओ पहात आहे",
+        "standardDefinition": "मानक व्याख्या",
         "onlyAudioAvailable": "केवळ ऑडिओ उपलब्ध आहे",
         "onlyAudioSupported": "आम्ही या ब्राउझरमध्ये केवळ ऑडिओचे समर्थन करतो.",
         "p2pEnabled": "सरदार ते सरदार सक्षम",
         "p2pVideoQualityDescription": "पीअर टू पीअर मोडमध्ये, प्राप्त व्हिडिओ गुणवत्ता केवळ उच्च आणि ऑडिओ दरम्यानच टॉगल केली जाऊ शकते. पीअर टू पीअर बाहेर येईपर्यंत इतर सेटिंग्जचा आदर केला जाणार नाही.",
-        "recHighDefinitionOnly": "उच्च परिभाषा पसंत करेल.",
-        "sd": "एसडी",
-        "sdTooltip": "मानक परिभाषा व्हिडिओ पहात आहे",
-        "standardDefinition": "मानक व्याख्या"
+        "recHighDefinitionOnly": "उच्च परिभाषा पसंत करेल."
     },
     "videothumbnail": {
         "domute": "नि: शब्द करा",
@@ -784,5 +783,8 @@
         "sendFeedback": "अभिप्राय पाठवा",
         "terms": "अटी",
         "title": "सुरक्षित, पूर्णपणे वैशिष्ट्यीकृत आणि पूर्णपणे विनामूल्य व्हिडिओ कॉन्फरन्सिंग"
+    },
+    "helpView": {
+        "title": "मदत केंद्र"
     }
 }
